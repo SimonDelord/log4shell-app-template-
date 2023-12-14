@@ -35,7 +35,7 @@ spec:
       containers:
         - name: log4shell-app
           image: >-
-            image-registry.openshift-image-registry.svc:5000/log4shell-app/log4shell-app@sha256:7c31966d39fc4547bd0306e2bcc542e4fe49b0cf500704b91b5b2280219091c5
+            quay.io/smileyfritz/log4shell-app:latest
           ports:
             - containerPort: 8080
               protocol: TCP
